@@ -44,14 +44,14 @@ Each student record contains:
 
 ## Working Process
 
-### 1️⃣ Data Generation
+### 1️. Data Generation
 
 * Generates student data using `random`
 * Number of students based on **last digit of roll number**
 
 ---
 
-### 2️⃣ Feature Engineering
+### 2️. Feature Engineering
 
 Performance Index is calculated as:
 
@@ -61,7 +61,7 @@ Performance Index = (Marks * 0.6 + Assignments * 0.4) * log(Attendance + 1)
 
 ---
 
-### 3️⃣ Classification Logic
+### 3️. Classification Logic
 
 * **At Risk** → Marks < 40 OR Attendance < 50
 * **Top Performer** → Marks > 90 AND Attendance > 80
@@ -70,7 +70,7 @@ Performance Index = (Marks * 0.6 + Assignments * 0.4) * log(Attendance + 1)
 
 ---
 
-### 4️⃣ Statistical Analysis
+### 4️. Statistical Analysis
 
 * Mean (manual calculation)
 * Median
@@ -80,7 +80,7 @@ Performance Index = (Marks * 0.6 + Assignments * 0.4) * log(Attendance + 1)
 
 ---
 
-### 5️⃣ Pattern Detection
+### 5️. Pattern Detection
 
 * **Consistency** → Std Dev < 15
 * **Attendance Risk** → More than 3 students with attendance < 50
@@ -88,7 +88,7 @@ Performance Index = (Marks * 0.6 + Assignments * 0.4) * log(Attendance + 1)
 
 ---
 
-### 6️⃣ Final Insight
+### 6️. Final Insight
 
 * Stable Academic System
 * Moderate Performance
@@ -96,7 +96,7 @@ Performance Index = (Marks * 0.6 + Assignments * 0.4) * log(Attendance + 1)
 
 ---
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 * Applied real-world data analysis using Python
 * Understood integration of multiple libraries
@@ -105,7 +105,7 @@ Performance Index = (Marks * 0.6 + Assignments * 0.4) * log(Attendance + 1)
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 pip install pandas numpy matplotlib
